@@ -861,6 +861,18 @@ section { position: relative; }
   font-style: italic;
 }
 
+.callout a {
+  color: var(--color-warm);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  font-weight: 600;
+}
+
+.callout a:hover {
+  color: var(--color-warm-lite);
+}
+
 .section-cream .callout {
   background: rgba(244, 168, 85, 0.1);
 }
